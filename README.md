@@ -1,4 +1,4 @@
-###  Opracowanie specyfikacji wymagań wybranego systemu 
+#  Opracowanie specyfikacji wymagań wybranego systemu 
 
 # 1. Charakterystyka opracowania
 # a. Nazwa skrócona
