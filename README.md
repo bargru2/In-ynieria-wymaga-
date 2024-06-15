@@ -60,9 +60,11 @@ OPROGRAMOWANIE JEST DOSTARCZANE "TAK JAK JEST", BEZ JAKIEJKOLWIEK GWARANCJI, WYR
 # Model dziedziny
 # ![alt text](https://github.com/bargru2/Inzynieria-wymagan/blob/main/documentation/Model%20dziedziny.png)
 
+# Diagram czynności - Proces zarządzania sprzedażą i obsługą klienta w EasySales Mobile
+# ![alt text](https://github.com/bargru2/Inzynieria-wymagan/blob/main/documentation/Model%20dziedziny.png)
 
-
-
+# Diagram Przypadków Użycia
+# ![alt text](https://github.com/bargru2/Inzynieria-wymagan/blob/main/documentation/DPU.png)
 
 
 
