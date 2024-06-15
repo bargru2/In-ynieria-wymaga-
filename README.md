@@ -9,7 +9,7 @@ EasySales Mobile
 #  b. Nazwa pełna
  System mobilnej sprzedaży przedstawiciela handlowego 
 
-# c. Krótki opis ze wskazaniem celów <img height=20 src="[documentation/media/windows_logo.png](https://github.com/tabler/tabler-icons/blob/main/icons/filled/alert-triangle.svg)"/>
+# c. Krótki opis ze wskazaniem celów <img height=20 src="documentation/media/windows_logo.png"/>
 EasySales Mobile to nowoczesna aplikacja zaprojektowana dla firm dążących do usprawnienia i zautomatyzowania procesów sprzedaży, logistyki oraz obsługi klienta. Dedykowany jest dla przedstawicieli handlowych, pracowników terenowych, którzy większość czasu pracują poza biurem. Za pomocą zaawansowanych funkcji, integracji z systemem ERP oraz przyjaznemu interfejsowi jakość obsługi klienta znacząco się poprawia. Efektywnie wpływa na realizacje zamierzonych celów sprzedażowych poprzez korzystanie z systemu w dowolnym miejscu i czasie, koncentrując się na najszybszym dotarciu do klienta.  Dzięki temu EasySales Mobile skraca czas realizacji wykonywanych czynności.
 
 # 2. Prawa autorskie.
@@ -61,7 +61,7 @@ OPROGRAMOWANIE JEST DOSTARCZANE "TAK JAK JEST", BEZ JAKIEJKOLWIEK GWARANCJI, WYR
 # ![alt text](https://github.com/bargru2/Inzynieria-wymagan/blob/main/documentation/Model%20dziedziny.png)
 
 # Diagram czynności - Proces zarządzania sprzedażą i obsługą klienta w EasySales Mobile
-# ![alt text](https://github.com/bargru2/Inzynieria-wymagan/blob/main/documentation/Model%20dziedziny.png)
+# ![alt text](https://github.com/bargru2/Inzynieria-wymagan/blob/main/documentation/DC%20-%20Proces%20zarz%C4%85dzania%20sprzeda%C5%BC%C4%85%20i%20obs%C5%82ug%C4%85%20klienta%20w%20EasySales%20Mobile.png)
 
 # Diagram Przypadków Użycia
 # ![alt text](https://github.com/bargru2/Inzynieria-wymagan/blob/main/documentation/DPU.png)
