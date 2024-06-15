@@ -9,7 +9,7 @@ EasySales Mobile
 #  b. Nazwa pełna
  System mobilnej sprzedaży przedstawiciela handlowego 
 
-# c. Krótki opis ze wskazaniem celów <img height=20 src="documentation/media/windows_logo.png"/>
+# c. Krótki opis ze wskazaniem celów <img height=20 src="[documentation/media/windows_logo.png](https://github.com/tabler/tabler-icons/blob/main/icons/filled/alert-triangle.svg)"/>
 EasySales Mobile to nowoczesna aplikacja zaprojektowana dla firm dążących do usprawnienia i zautomatyzowania procesów sprzedaży, logistyki oraz obsługi klienta. Dedykowany jest dla przedstawicieli handlowych, pracowników terenowych, którzy większość czasu pracują poza biurem. Za pomocą zaawansowanych funkcji, integracji z systemem ERP oraz przyjaznemu interfejsowi jakość obsługi klienta znacząco się poprawia. Efektywnie wpływa na realizacje zamierzonych celów sprzedażowych poprzez korzystanie z systemu w dowolnym miejscu i czasie, koncentrując się na najszybszym dotarciu do klienta.  Dzięki temu EasySales Mobile skraca czas realizacji wykonywanych czynności.
 
 # 2. Prawa autorskie.
