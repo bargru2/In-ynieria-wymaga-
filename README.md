@@ -22,11 +22,18 @@ Jakub Kreft
 Stanisław Prystupa
 ---
 
-## b. Warunki licencyjne do oprogramowania wytworzonego przez grupę
+# b. Warunki licencyjne do oprogramowania wytworzonego przez grupę
 
-License
+MIT License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+Copyright (c) [2024] [BJS]
+
+Niniejszym udziela się bezpłatnego pozwolenia każdej osobie uzyskującej kopię tego oprogramowania i powiązanej dokumentacji (dalej "Oprogramowanie"), do bezpłatnego użytkowania Oprogramowania bez ograniczeń, w tym bez ograniczeń do prawa do użytkowania, kopiowania, modyfikowania, łączenia, publikowania, dystrybucji, sublicencjonowania i/lub sprzedaży kopii Oprogramowania, oraz do zezwalania osobom, którym Oprogramowanie jest dostarczane, na takie same działania, z zastrzeżeniem następujących warunków:
+
+Powyższa informacja o prawach autorskich oraz niniejsza informacja o pozwoleniu musi być zawarta we wszystkich kopiach lub istotnych częściach Oprogramowania.
+
+OPROGRAMOWANIE JEST DOSTARCZANE "TAK JAK JEST", BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ LUB DOMNIEMANEJ, W TYM BEZ GWARANCJI PRZYDATNOŚCI HANDLOWEJ, PRZYDATNOŚCI DO OKREŚLONEGO CELU I NIENARUSZALNOŚCI PRAW. W ŻADNYM WYPADKU AUTORZY LUB POSIADACZE PRAW AUTORSKICH NIE BĘDĄ PONOSIĆ ODPOWIEDZIALNOŚCI ZA JAKIEKOLWIEK ROSZCZENIA, SZKODY LUB INNE ZOBOWIĄZANIA, CZY TO W WYNIKU DZIAŁANIA UMOWY, DELIKTU LUB INNEJ SYTUACJI POWSTAŁEJ W ZWIĄZKU Z OPROGRAMOWANIEM LUB KORZYSTANIEM Z NIEGO LUB INNYMI DZIAŁANIAMI W OPROGRAMOWANIU.
+
 # 3. Specyfikacja wymagań
 # a. Wymagania systemu EasySales Mobile
 
