@@ -9,7 +9,9 @@ EasySales Mobile
 #  b. Nazwa pełna
  System mobilnej sprzedaży przedstawiciela handlowego 
 
-# c. Krótki opis ze wskazaniem celów <img height=20 src="documentation/media/windows_logo.png"/>
+# c. Krótki opis ze wskazaniem celów 
+
+
 EasySales Mobile to nowoczesna aplikacja zaprojektowana dla firm dążących do usprawnienia i zautomatyzowania procesów sprzedaży, logistyki oraz obsługi klienta. Dedykowany jest dla przedstawicieli handlowych, pracowników terenowych, którzy większość czasu pracują poza biurem. Za pomocą zaawansowanych funkcji, integracji z systemem ERP oraz przyjaznemu interfejsowi jakość obsługi klienta znacząco się poprawia. Efektywnie wpływa na realizacje zamierzonych celów sprzedażowych poprzez korzystanie z systemu w dowolnym miejscu i czasie, koncentrując się na najszybszym dotarciu do klienta.  Dzięki temu EasySales Mobile skraca czas realizacji wykonywanych czynności.
 
 # 2. Prawa autorskie.
@@ -453,6 +455,61 @@ OPROGRAMOWANIE JEST DOSTARCZANE "TAK JAK JEST", BEZ JAKIEJKOLWIEK GWARANCJI, WYR
 **Wynik:**
 - Status: Zakończono pomyślnie
 - Uwagi: System automatycznie raportuje błędy i awarie do zespołu wsparcia technicznego.
+
+
+# Słownik pojęć
+
+#### 1. Diagram klas (Class Diagram)
+Diagram klas to rodzaj diagramu UML (Unified Modeling Language), który ilustruje strukturę systemu informatycznego przez prezentację jego klas, atrybutów, metod oraz relacji między nimi.
+
+#### 2. Diagram przypadków użycia (Use Case Diagram)
+Diagram przypadków użycia jest diagramem UML przedstawiającym funkcjonalności systemu z perspektywy użytkownika. Pokazuje, jak różni aktorzy interakcjonują z systemem w ramach różnych przypadków użycia.
+
+#### 3. Diagram czynności (Activity Diagram)
+Diagram czynności w UML przedstawia sekwencję działań lub procesów w systemie. Służy do modelowania zachowań systemu, procesów biznesowych oraz algorytmów w formie graficznej.
+
+#### 4. UML (Unified Modeling Language)
+UML jest standardowym językiem modelowania stosowanym do specyfikacji, wizualizacji, konstrukcji i dokumentowania systemów informatycznych oraz innych procesów biznesowych.
+
+#### 5. Klasa
+Klasa w programowaniu obiektowym to szablon lub plan, na podstawie którego tworzone są obiekty. Zawiera definicje atrybutów i metod, które opisują dane i zachowanie obiektów.
+
+#### 6. Przypadek użycia (Use Case)
+Przypadek użycia opisuje scenariusz interakcji między systemem a jego użytkownikami, pokazując, co system robi, aby osiągnąć określony cel dla użytkownika.
+
+#### 7. Aktywność (Activity)
+Aktywność w kontekście diagramu czynności to pojedyncze działanie lub akcja, które mogą być wykonywane w systemie, reprezentujące krok w procesie biznesowym lub obliczeniowym.
+
+#### 8. Aktor
+Aktor w diagramie przypadków użycia to rola, która interakcjonuje z systemem. Może to być użytkownik systemu, zewnętrzny system lub inny komponent, który korzysta z usług systemu.
+
+#### 9. Relacja asocjacji
+Relacja asocjacji w diagramie klas opisuje związek pomiędzy dwiema lub więcej klasami, określając, że obiekty jednej klasy mogą mieć powiązania z obiektami drugiej klasy.
+
+#### 10. Relacja dziedziczenia
+Relacja dziedziczenia w programowaniu obiektowym opisuje hierarchię klas, w której jedna klasa (klasa pochodna lub podrzędna) dziedziczy cechy (atrybuty i metody) po innej klasie (klasie bazowej lub nadrzędnej).
+
+#### 11. Atrybut
+Atrybut w kontekście klasy opisuje cechy lub właściwości obiektów danej klasy. Może to być np. nazwa, wiek, numer identyfikacyjny itp.
+
+#### 12. Metoda
+Metoda w programowaniu obiektowym to funkcja zdefiniowana wewnątrz klasy, która wykonuje określone działania lub operacje na obiektach klasy.
+
+#### 13. Kompilacja
+Kompilacja to proces tłumaczenia kodu źródłowego programu na język maszynowy, który może być wykonywany przez komputer.
+
+#### 14. Diagram sekwencji (Sequence Diagram)
+Diagram sekwencji w UML przedstawia interakcje pomiędzy różnymi obiektami w ramach określonego scenariusza lub przypadku użycia, ukazując kolejność wywoływania metod i komunikacji.
+
+#### 15. Wzorzec projektowy (Design Pattern)
+Wzorzec projektowy to sprawdzony i sprawdzony sposób rozwiązania często występującego problemu projektowego. Oferuje gotowe rozwiązanie, które można wielokrotnie stosować w różnych sytuacjach projektowych.
+
+#### 16. Interfejs
+Interfejs w programowaniu obiektowym definiuje zestaw metod, które klasa musi zaimplementować, aby mogła być uznana za realizującą dany interfejs.
+
+#### 17. Wyjątek (Exception)
+Wyjątek to specjalny obiekt lub struktura danych, która reprezentuje sytuację wyjątkową lub błąd podczas wykonywania programu, wymagającą specjalnego postępowania lub obsługi.
+
 
 
 
