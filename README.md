@@ -55,6 +55,18 @@ OPROGRAMOWANIE JEST DOSTARCZANE "TAK JAK JEST", BEZ JAKIEJKOLWIEK GWARANCJI, WYR
 | REQ-014       | Obsługa offline              | System powinien umożliwiać dostęp do kluczowych funkcji w trybie offline.                             | 1         | Funkcjonalne      |
 | REQ-015       | Raportowanie błędów          | System powinien automatycznie raportować błędy i awarie do zespołu wsparcia technicznego.             | 2         | Pozafunkcjonalne  |
 
+
+
+# Model dziedziny
+# ![alt text](https://github.com/bargru2/Inzynieria-wymagan/blob/main/documentation/Model%20dziedziny.png)
+
+
+
+
+
+
+
+
 # Scenariusze testów
 
 ## Scenariusz testowy 1: Logowanie użytkownika
