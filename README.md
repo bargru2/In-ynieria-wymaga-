@@ -59,55 +59,249 @@ OPROGRAMOWANIE JEST DOSTARCZANE "TAK JAK JEST", BEZ JAKIEJKOLWIEK GWARANCJI, WYR
 
 ## Scenariusz testowy 1: Logowanie użytkownika
 
-- **Identyfikator**: TC-001
-- **Nazwa**: Test logowania użytkownika
-- **Opis**: Test sprawdzający możliwość logowania się użytkownika do systemu.
-- **Warunki wstępne**: System jest uruchomiony, użytkownik ma założone konto.
-- **Kroki**:
-  1. Otwórz aplikację EasySales Mobile.
-  2. Wprowadź poprawny identyfikator użytkownika.
-  3. Wprowadź poprawne hasło użytkownika.
-  4. Kliknij przycisk "Zaloguj się".
-- **Oczekiwany wynik**: Użytkownik zostaje poprawnie zalogowany i przekierowany do ekranu głównego aplikacji.
+**Identyfikator przypadków testowych:** TC-001  
+**Nazwa:** Test logowania użytkownika  
+**Opis:** Test sprawdzający możliwość logowania się użytkownika do systemu.  
+**Warunki wstępne:** System jest uruchomiony, użytkownik ma założone konto.  
+
+**Kroki:**
+1. Otwórz aplikację EasySales Mobile.
+2. Wprowadź poprawny identyfikator użytkownika.
+3. Wprowadź poprawne hasło użytkownika.
+4. Kliknij przycisk "Zaloguj się".
+
+**Oczekiwany wynik:** Użytkownik zostaje poprawnie zalogowany i przekierowany do ekranu głównego aplikacji.
+
+---
 
 ## Scenariusz testowy 2: Przeglądanie produktów
 
-- **Identyfikator**: TC-002
-- **Nazwa**: Test przeglądania produktów
-- **Opis**: Test sprawdzający możliwość przeglądania dostępnych produktów wraz z ich opisami i cenami.
-- **Warunki wstępne**: Użytkownik jest zalogowany do systemu.
-- **Kroki**:
-  1. Otwórz zakładkę "Produkty".
-  2. Przeglądaj listę dostępnych produktów.
-  3. Kliknij na wybrany produkt, aby zobaczyć jego szczegóły.
-- **Oczekiwany wynik**: Użytkownik może przeglądać listę produktów oraz wyświetlać szczegółowe informacje o każdym z nich.
+**Identyfikator przypadków testowych:** TC-002  
+**Nazwa:** Test przeglądania dostępnych produktów  
+**Opis:** Test sprawdzający możliwość przeglądania produktów z opisami i cenami.  
+**Warunki wstępne:** System jest uruchomiony, użytkownik jest zalogowany.  
+
+**Kroki:**
+1. Otwórz aplikację EasySales Mobile.
+2. Przejdź do sekcji produktów.
+3. Przeglądaj listę dostępnych produktów.
+4. Kliknij na wybrany produkt, aby zobaczyć szczegóły.
+
+**Oczekiwany wynik:** Użytkownik widzi listę produktów z opisami i cenami oraz może przeglądać szczegóły wybranego produktu.
+
+---
 
 ## Scenariusz testowy 3: Dodawanie produktów do koszyka
 
-- **Identyfikator**: TC-003
-- **Nazwa**: Test dodawania produktów do koszyka
-- **Opis**: Test sprawdzający możliwość dodawania produktów do koszyka zakupowego.
-- **Warunki wstępne**: Użytkownik jest zalogowany do systemu.
-- **Kroki**:
-  1. Otwórz zakładkę "Produkty".
-  2. Wybierz produkt do dodania do koszyka.
-  3. Kliknij przycisk "Dodaj do koszyka".
-  4. Otwórz koszyk zakupowy.
-- **Oczekiwany wynik**: Wybrany produkt jest widoczny w koszyku zakupowym.
+**Identyfikator przypadków testowych:** TC-003  
+**Nazwa:** Test dodawania produktu do koszyka  
+**Opis:** Test sprawdzający możliwość dodawania produktów do koszyka zakupowego.  
+**Warunki wstępne:** System jest uruchomiony, użytkownik jest zalogowany.  
+
+**Kroki:**
+1. Otwórz aplikację EasySales Mobile.
+2. Przejdź do sekcji produktów.
+3. Wybierz produkt do dodania do koszyka.
+4. Kliknij przycisk "Dodaj do koszyka".
+
+**Oczekiwany wynik:** Produkt zostaje dodany do koszyka zakupowego.
+
+---
 
 ## Scenariusz testowy 4: Składanie zamówienia
 
-- **Identyfikator**: TC-004
-- **Nazwa**: Test składania zamówienia
-- **Opis**: Test sprawdzający możliwość składania zamówienia i wyboru metody płatności oraz dostawy.
-- **Warunki wstępne**: Użytkownik jest zalogowany do systemu, koszyk zakupowy zawiera co najmniej jeden produkt.
-- **Kroki**:
-  1. Otwórz koszyk zakupowy.
-  2. Kliknij przycisk "Złóż zamówienie".
-  3. Wybierz metodę płatności.
-  4. Wybierz metodę dostawy.
-  5. Potwierdź zamówienie.
-- **Oczekiwany wynik**: Zamówienie zostaje poprawnie złożone, a użytkownik otrzymuje potwierdzenie.
+**Identyfikator przypadków testowych:** TC-004  
+**Nazwa:** Test składania zamówienia  
+**Opis:** Test sprawdzający możliwość składania zamówienia z wyborem metody płatności oraz dostawy.  
+**Warunki wstępne:** System jest uruchomiony, użytkownik ma produkty w koszyku.  
+
+**Kroki:**
+1. Otwórz aplikację EasySales Mobile.
+2. Przejdź do koszyka zakupowego.
+3. Kliknij przycisk "Złóż zamówienie".
+4. Wybierz metodę płatności oraz dostawy.
+5. Potwierdź zamówienie.
+
+**Oczekiwany wynik:** Zamówienie jest składane, a użytkownik otrzymuje potwierdzenie.
+
+---
+
+## Scenariusz testowy 5: Przeglądanie historii zamówień
+
+**Identyfikator przypadków testowych:** TC-005  
+**Nazwa:** Test przeglądania historii zamówień  
+**Opis:** Test sprawdzający możliwość przeglądania historii zamówień użytkownika.  
+**Warunki wstępne:** System jest uruchomiony, użytkownik jest zalogowany.  
+
+**Kroki:**
+1. Otwórz aplikację EasySales Mobile.
+2. Przejdź do sekcji "Historia zamówień".
+3. Przeglądaj listę zamówień.
+4. Kliknij na wybrane zamówienie, aby zobaczyć szczegóły.
+
+**Oczekiwany wynik:** Użytkownik widzi historię swoich zamówień z możliwością przeglądania szczegółów.
+
+---
+
+## Scenariusz testowy 6: Powiadomienia push
+
+**Identyfikator przypadków testowych:** TC-006  
+**Nazwa:** Test powiadomień push  
+**Opis:** Test sprawdzający wysyłanie powiadomień push o nowych ofertach i statusie zamówień.  
+**Warunki wstępne:** System jest uruchomiony, użytkownik jest zalogowany.  
+
+**Kroki:**
+1. Upewnij się, że użytkownik ma włączone powiadomienia push.
+2. Sprawdź, czy użytkownik otrzymuje powiadomienie o nowej ofercie.
+3. Sprawdź, czy użytkownik otrzymuje powiadomienie o statusie zamówienia.
+
+**Oczekiwany wynik:** Użytkownik otrzymuje powiadomienia push o nowych ofertach i statusie zamówienia.
+
+---
+
+## Scenariusz testowy 7: Wyszukiwanie produktów
+
+**Identyfikator przypadków testowych:** TC-007  
+**Nazwa:** Test wyszukiwania produktów  
+**Opis:** Test sprawdzający możliwość wyszukiwania produktów po nazwie, kategorii lub innych parametrach.  
+**Warunki wstępne:** System jest uruchomiony, użytkownik jest zalogowany.  
+
+**Kroki:**
+1. Otwórz aplikację EasySales Mobile.
+2. Przejdź do sekcji wyszukiwania.
+3. Wprowadź nazwę produktu, kategorię lub inne parametry.
+4. Kliknij przycisk "Szukaj".
+
+**Oczekiwany wynik:** System zwraca listę produktów spełniających kryteria wyszukiwania.
+
+---
+
+## Scenariusz testowy 8: Analiza sprzedaży
+
+**Identyfikator przypadków testowych:** TC-008  
+**Nazwa:** Test analizy wyników sprzedaży  
+**Opis:** Test sprawdzający dostęp do narzędzi analizy sprzedaży dla przedstawicieli handlowych.  
+**Warunki wstępne:** System jest uruchomiony, użytkownik jest przedstawicielem handlowym.  
+
+**Kroki:**
+1. Otwórz aplikację EasySales Mobile.
+2. Przejdź do sekcji analizy sprzedaży.
+3. Wybierz okres i inne parametry analizy.
+4. Kliknij przycisk "Analizuj".
+
+**Oczekiwany wynik:** System generuje i wyświetla wyniki analizy sprzedaży zgodnie z wybranymi parametrami.
+
+---
+
+## Scenariusz testowy 9: Bezpieczeństwo danych
+
+**Identyfikator przypadków testowych:** TC-009  
+**Nazwa:** Test bezpieczeństwa danych  
+**Opis:** Test sprawdzający bezpieczne przechowywanie i transmisję danych użytkowników.  
+**Warunki wstępne:** System jest uruchomiony.  
+
+**Kroki:**
+1. Otwórz aplikację EasySales Mobile.
+2. Przejdź do sekcji logowania.
+3. Sprawdź, czy dane logowania są przesyłane z użyciem protokołu HTTPS.
+4. Zaloguj się i sprawdź, czy dane użytkownika są przechowywane w bezpieczny sposób.
+
+**Oczekiwany wynik:** Dane użytkownika są bezpiecznie przesyłane i przechowywane.
+
+---
+
+## Scenariusz testowy 10: Obsługa wielu języków
+
+**Identyfikator przypadków testowych:** TC-010  
+**Nazwa:** Test obsługi wielu języków  
+**Opis:** Test sprawdzający możliwość korzystania z aplikacji w różnych językach.  
+**Warunki wstępne:** System jest uruchomiony, użytkownik jest zalogowany.  
+
+**Kroki:**
+1. Otwórz aplikację EasySales Mobile.
+2. Przejdź do ustawień języka.
+3. Wybierz inny język.
+4. Sprawdź, czy interfejs użytkownika zmienia się na wybrany język.
+
+**Oczekiwany wynik:** System obsługuje wybrany język i zmienia interfejs użytkownika zgodnie z ustawieniami.
+
+---
+
+## Scenariusz testowy 11: Responsywność interfejsu
+
+**Identyfikator przypadków testowych:** TC-011  
+**Nazwa:** Test responsywności interfejsu  
+**Opis:** Test sprawdzający, czy interfejs użytkownika jest responsywny i dostosowany do różnych rozdzielczości ekranów.  
+**Warunki wstępne:** System jest uruchomiony, użytkownik jest zalogowany.  
+
+**Kroki:**
+1. Otwórz aplikację EasySales Mobile na różnych urządzeniach (smartfon, tablet, komputer).
+2. Sprawdź, czy interfejs użytkownika jest dostosowany do rozdzielczości ekranu każdego urządzenia.
+
+**Oczekiwany wynik:** Interfejs użytkownika jest responsywny i dostosowany do różnych rozdzielczości ekranów.
+
+---
+
+## Scenariusz testowy 12: Integracja z systemami CRM
+
+**Identyfikator przypadków testowych:** TC-012  
+**Nazwa:** Test integracji z systemami CRM  
+**Opis:** Test sprawdzający integrację aplikacji z istniejącymi systemami CRM.  
+**Warunki wstępne:** System jest uruchomiony, użytkownik jest zalogowany.  
+
+**Kroki:**
+1. Otwórz aplikację EasySales Mobile.
+2. Przejdź do sekcji integracji z CRM.
+3. Sprawdź, czy dane z CRM są synchronizowane z aplikacją.
+
+**Oczekiwany wynik:** System poprawnie synchronizuje dane z istniejącymi systemami CRM.
+
+---
+
+## Scenariusz testowy 13: Automatyczne aktualizacje
+
+**Identyfikator przypadków testowych:** TC-013  
+**Nazwa:** Test automatycznych aktualizacji  
+**Opis:** Test sprawdzający wsparcie dla automatycznych aktualizacji aplikacji.  
+**Warunki wstępne:** System jest uruchomiony, użytkownik jest zalogowany.  
+
+**Kroki:**
+1. Otwórz aplikację EasySales Mobile.
+2. Sprawdź, czy aplikacja automatycznie aktualizuje się do najnowszej wersji bez interwencji użytkownika.
+
+**Oczekiwany wynik:** System wspiera automatyczne aktualizacje aplikacji.
+
+---
+
+## Scenariusz testowy 14: Obsługa offline
+
+**Identyfikator przypadków testowych:** TC-014  
+**Nazwa:** Test obsługi offline  
+**Opis:** Test sprawdzający dostęp do kluczowych funkcji w trybie offline.  
+**Warunki wstępne:** System jest uruchomiony, użytkownik jest zalogowany.  
+
+**Kroki:**
+1. Otwórz aplikację EasySales Mobile.
+2. Wyłącz połączenie internetowe.
+3. Sprawdź, czy użytkownik może korzystać z kluczowych funkcji aplikacji w trybie offline.
+
+**Oczekiwany wynik:** System umożliwia dostęp do kluczowych funkcji w trybie offline.
+
+---
+
+## Scenariusz testowy 15: Raportowanie błędów
+
+**Identyfikator przypadków testowych:** TC-015  
+**Nazwa:** Test raportowania błędów  
+**Opis:** Test sprawdzający automatyczne raportowanie błędów i awarii do zespołu wsparcia technicznego.  
+**Warunki wstępne:** System jest uruchomiony, użytkownik jest zalogowany.  
+
+**Kroki:**
+1. Otwórz aplikację EasySales Mobile.
+2. Wymuś wystąpienie błędu lub awarii.
+3. Sprawdź, czy system automatycznie raportuje błąd do zespołu wsparcia technicznego.
+
+**Oczekiwany wynik:** System automatycznie raportuje błędy i awarie do zespołu wsparcia technicznego.
 
 ---
 
@@ -115,31 +309,136 @@ OPROGRAMOWANIE JEST DOSTARCZANE "TAK JAK JEST", BEZ JAKIEJKOLWIEK GWARANCJI, WYR
 
 ## Scenariusz testowy 1: Logowanie użytkownika
 
-- **Identyfikator**: TC-001
-- **Wynik**: 
-  - **Status**: Zakończono pomyślnie
-  - **Uwagi**: Użytkownik został poprawnie zalogowany i przekierowany do ekranu głównego aplikacji.
+**Identyfikator:** TC-001  
+**Wynik:**
+- Status: Zakończono pomyślnie
+- Uwagi: Użytkownik został poprawnie zalogowany i przekierowany do ekranu głównego aplikacji.
+
+---
 
 ## Scenariusz testowy 2: Przeglądanie produktów
 
-- **Identyfikator**: TC-002
-- **Wynik**: 
-  - **Status**: Zakończono pomyślnie
-  - **Uwagi**: Użytkownik mógł przeglądać listę produktów oraz wyświetlać szczegółowe informacje o każdym z nich.
+**Identyfikator:** TC-002  
+**Wynik:**
+- Status: Zakończono pomyślnie
+- Uwagi: Lista produktów wyświetlona zgodnie z oczekiwaniami, możliwość przeglądania szczegółów produktów działa poprawnie.
+
+---
 
 ## Scenariusz testowy 3: Dodawanie produktów do koszyka
 
-- **Identyfikator**: TC-003
-- **Wynik**: 
-  - **Status**: Zakończono pomyślnie
-  - **Uwagi**: Wybrany produkt był widoczny w koszyku zakupowym.
+**Identyfikator:** TC-003  
+**Wynik:**
+- Status: Zakończono pomyślnie
+- Uwagi: Dodawanie produktów do koszyka działa sprawnie, produkt został dodany zgodnie z oczekiwaniami.
+
+---
 
 ## Scenariusz testowy 4: Składanie zamówienia
 
-- **Identyfikator**: TC-004
-- **Wynik**: 
-  - **Status**: Zakończono pomyślnie
-  - **Uwagi**: Zamówienie zostało poprawnie złożone, a użytkownik otrzymał potwierdzenie.
+**Identyfikator:** TC-004  
+**Wynik:**
+- Status: Zakończono pomyślnie
+- Uwagi: Składanie zamówienia przebiegło bez problemów, wybór metody płatności oraz dostawy możliwy i funkcjonalny.
+
+---
+
+## Scenariusz testowy 5: Przeglądanie historii zamówień
+
+**Identyfikator:** TC-005  
+**Wynik:**
+- Status: Zakończono pomyślnie
+- Uwagi: Historia zamówień jest wyświetlana poprawnie, użytkownik może przeglądać szczegóły zamówień bez problemów.
+
+---
+
+## Scenariusz testowy 6: Powiadomienia push
+
+**Identyfikator:** TC-006  
+**Wynik:**
+- Status: Zakończono pomyślnie
+- Uwagi: Powiadomienia push o nowych ofertach oraz statusie zamówienia są wysyłane i odbierane prawidłowo przez użytkownika.
+
+---
+
+## Scenariusz testowy 7: Wyszukiwanie produktów
+
+**Identyfikator:** TC-007  
+**Wynik:**
+- Status: Zakończono pomyślnie
+- Uwagi: Wyszukiwanie produktów po nazwie, kategorii oraz innych parametrach działa sprawnie, lista produktów jest filtrowana zgodnie z wprowadzonymi kryteriami.
+
+---
+
+## Scenariusz testowy 8: Analiza sprzedaży
+
+**Identyfikator:** TC-008  
+**Wynik:**
+- Status: Zakończono pomyślnie
+- Uwagi: Narzędzia analizy sprzedaży są dostępne i generują wyniki zgodnie z wybranymi parametrami, funkcjonalność jest zgodna z oczekiwaniami.
+
+---
+
+## Scenariusz testowy 9: Bezpieczeństwo danych
+
+**Identyfikator:** TC-009  
+**Wynik:**
+- Status: Zakończono pomyślnie
+- Uwagi: Dane logowania są przesyłane z użyciem protokołu HTTPS, dane użytkowników przechowywane są w bezpieczny sposób.
+
+---
+
+## Scenariusz testowy 10: Obsługa wielu języków
+
+**Identyfikator:** TC-010  
+**Wynik:**
+- Status: Zakończono pomyślnie
+- Uwagi: Aplikacja obsługuje zmianę języka interfejsu użytkownika zgodnie z ustawieniami użytkownika.
+
+---
+
+## Scenariusz testowy 11: Responsywność interfejsu
+
+**Identyfikator:** TC-011  
+**Wynik:**
+- Status: Zakończono pomyślnie
+- Uwagi: Interfejs użytkownika jest responsywny i dostosowany do różnych rozdzielczości ekranów (smartfon, tablet, komputer).
+
+---
+
+## Scenariusz testowy 12: Integracja z systemami CRM
+
+**Identyfikator:** TC-012  
+**Wynik:**
+- Status: Zakończono pomyślnie
+- Uwagi: Dane z CRM są synchronizowane z aplikacją EasySales Mobile zgodnie z oczekiwaniami.
+
+---
+
+## Scenariusz testowy 13: Automatyczne aktualizacje
+
+**Identyfikator:** TC-013  
+**Wynik:**
+- Status: Zakończono pomyślnie
+- Uwagi: Aplikacja wspiera automatyczne aktualizacje do najnowszych wersji bez interwencji użytkownika.
+
+---
+
+## Scenariusz testowy 14: Obsługa offline
+
+**Identyfikator:** TC-014  
+**Wynik:**
+- Status: Zakończono pomyślnie
+- Uwagi: Kluczowe funkcje aplikacji są dostępne i działają poprawnie w trybie offline.
+
+---
+
+## Scenariusz testowy 15: Raportowanie błędów
+
+**Identyfikator:** TC-015  
+**Wynik:**
+- Status: Zakończono pomyślnie
+- Uwagi: System automatycznie raportuje błędy i awarie do zespołu wsparcia technicznego.
 
 
 
@@ -165,14 +464,3 @@ OPROGRAMOWANIE JEST DOSTARCZANE "TAK JAK JEST", BEZ JAKIEJKOLWIEK GWARANCJI, WYR
 
 
 
-
-
-
-
-
-
-
-
-4. Testy
-a. Scenariusze testów
-b. Sprawozdanie z wykonania scenariuszy testów
